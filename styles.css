@@ -6,8 +6,7 @@
 }
 
 h1 {
-    font-size: 45px;
-    font-weight: bold;
+    font-size: 35px;
 }
 
  h2 {
@@ -15,39 +14,39 @@ h1 {
     margin-bottom: 10px;
 } 
 
+section p { 
+    margin: 5px;
+    align-items: center;
+}
+
 hr {
     margin-bottom: 10px;
 
 }
 
 body {
-/* background-color: rgb(57, 169, 219); */
 background-color: peru;
 font-family: Rubik, Arial;
-overflow:-moz-hidden-unscrollable;
 }
 
-form {
+section{
 text-align: center;
 line-height: 30px;
-height: 80%;
 }
 
 
 #overlay {
 width: 80%;
 margin: 3% auto;
-/* height: 95vh; */
 background-color: rgba(255, 255, 255, 0.9);
 border-radius: 40px;
 }
 
 #banner {
-    height: 300px;
+    height: 400px;
     width: 100%;
     display: block;
     margin: auto;
-    z-index: -1;
 }
 
 #profile-image {
@@ -56,13 +55,11 @@ border-radius: 40px;
         border: 1px solid darkgray;
         border-radius: 50%;
         padding: 2px;
-        z-index: 1;
         position: absolute;
         left: 10%;
         top: 30px;
         margin-left: 10px;
         margin-top: 50px;
-        display: block;
 }
 
 #banner-text {
@@ -71,7 +68,7 @@ border-radius: 40px;
     left: 30%;
     color: white;
     width: 50%;
-
+    text-align: center;
 }
 
 #banner-text p {
