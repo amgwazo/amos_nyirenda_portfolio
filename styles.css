@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+ h2 {
+    /* font-size: 35px; */
+    margin-bottom: 10px;
+} 
+
+hr {
+    margin-bottom: 10px;
+
+}
+
+body {
+/* background-color: rgb(57, 169, 219); */
+background-color: peru;
+font-family: Rubik, Arial;
+overflow:-moz-hidden-unscrollable;
+}
+
+form {
+text-align: center;
+line-height: 30px;
+height: 80%;
+}
+
+
+#overlay {
+width: 80%;
+margin: 3% auto;
+/* height: 95vh; */
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 40px;
+}
+
+#banner {
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    z-index: -1;
+}
+
+#profile-image {
+        width: 15%;
+        height: 25%;
+        border: 1px solid darkgray;
+        border-radius: 50%;
+        padding: 2px;
+        z-index: 1;
+        position: absolute;
+        left: 10%;
+        top: 30px;
+        margin-left: 10px;
+        margin-top: 50px;
+        display: block;
+}
+
+#banner-text {
+    position: absolute;
+    top: 70px;
+    left: 30%;
+    color: white;
+    width: 50%;
+
+}
+
+#banner-text p {
+
+    font-size: small;
+}
+
+.social-media {
+    display: inline;
+}
+
+
+nav {
+    /* float: right !important; */
+    /* align-items: end;*/
+   
+    /* display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: flex-end;*/
+    display: flex;
+    justify-content: right;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+nav li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+
+}
