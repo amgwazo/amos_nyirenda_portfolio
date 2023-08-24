@@ -7,17 +7,18 @@
 
 h1 {
     font-size: 35px;
+    margin-bottom: 15px;
+
 }
 
  h2 {
-    /* font-size: 35px; */
-    margin-bottom: 10px;
+    font-size: 25px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(80, 93, 189); 
 } 
 
-section p { 
-    margin: 5px;
-    align-items: center;
-}
+
 
 hr {
     margin-bottom: 10px;
@@ -25,13 +26,40 @@ hr {
 }
 
 body {
-background-color: peru;
+background-color: rgb(236, 237, 242) ; /* rgb(57, 169, 219);   peru;*/
 font-family: Rubik, Arial;
 }
+
+/* 
+#tools {
+       
+} */
 
 section{
 text-align: center;
 line-height: 30px;
+padding-left: 10px;
+padding-right: 10px;
+align-items: center;
+}
+
+section hr {
+    margin-bottom: 1px;
+    margin-top: 0px;
+    border-top: 1px solid lightgrey;
+}
+
+section p {
+    margin: 5px;
+    align-items: center;
+}
+
+section h2 {
+    margin-top: 40px;
+}
+
+.tools {
+    margin-top: 40px;
 }
 
 
@@ -47,6 +75,7 @@ border-radius: 40px;
     width: 100%;
     display: block;
     margin: auto;
+    z-index: -10;
 }
 
 #profile-image {
@@ -73,7 +102,7 @@ border-radius: 40px;
 
 #banner-text p {
 
-    font-size: small;
+    font-size:medium;
 }
 
 .social-media {
@@ -93,7 +122,10 @@ nav {
     justify-content: right;
     /* background-color: rgba(255, 255, 255, 0.9); */
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(228, 230, 243);
+    padding: 8px 2px;
+
 }
 
 
@@ -104,4 +136,19 @@ nav li {
     text-align: center;
     font-size: 18px;
 
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+footer hr {
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: white;
 }
