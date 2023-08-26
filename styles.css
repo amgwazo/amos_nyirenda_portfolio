@@ -220,6 +220,10 @@ footer hr {
     margin-bottom: 10px;
 }
 
+header {
+    background-color: cadetblue;
+}
+
 header h2 {
     color: white;
 }
