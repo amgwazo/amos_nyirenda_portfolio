@@ -4,19 +4,34 @@
     font-size: 16px;
 
 }
+
+.experience-section {
+    background-color: rgb(236, 237, 242);
+    border: 2px inset rgb(236, 237, 242);
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 95%;
+}
+
+.skills-section {
+    
+    border: 2px double rgb(236, 237, 242);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 95%;
+}
 dl {
+    color: rgb(78, 78, 192);
         width: 75%;
         margin-right: auto;
         margin-left: auto;
+        margin-top: 20px;
 }
  dt {
     font-weight: bolder;
     margin-top: 20px;
 } 
-
-
-
-
 
 h1 {
     font-size: 35px;
@@ -30,6 +45,11 @@ h1 {
     margin-top: 20px;
     color: rgb(80, 93, 189); 
 } 
+
+.skills-section h2 {
+    margin-top: 10px;
+    margin-bottom: auto;
+}
 
 
 
@@ -128,8 +148,8 @@ section h2 {
 }
 
 
-#overlay {
-width: 80%;
+.overlay {
+width: 90%;
 margin: 3% auto;
 background-color: rgba(255, 255, 255, 0.9);
 border-radius: 40px;
@@ -158,7 +178,7 @@ border-radius: 40px;
 
 #banner-text {
     position: absolute;
-    top: 70px;
+    top: 90px;
     left: 30%;
     color: white;
     width: 50%;
