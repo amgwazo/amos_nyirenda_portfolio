@@ -6,32 +6,43 @@
 }
 
 body {
-    background-color: rgb(236, 237, 242);
+    background-color: #353b41;
+    /*background-color: rgb(236, 237, 242);*/
     /* rgb(57, 169, 219);   peru;*/
     font-family: Rubik, Arial;
+    color: rgb(163, 178, 182);
 }
 
 header {
-    background-color: cadetblue;
+    padding-top: 5px;
+    /* background-color: cadetblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
 }
 
 header h2 {
-    color: white;
+    color: rgb(163, 166, 182);
 }
 
 .overlay {
     width: 90%;
     margin: 3% auto;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.139);
+    /*rgb(255, 255, 255, 0.139);
+    background-color: rgba(255, 255, 255, 0.9); */
+    border-radius: 20px;
 }
 
 #banner {
     height: 400px;
-    width: 100%;
+    width: 99%;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     z-index: -10;
+    background-color: cadetblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #profile-image {
@@ -47,11 +58,20 @@ header h2 {
     margin-top: 50px;
 }
 
+.banner-header{
+    height: 400px;
+    background: linear-gradient(304deg, rgb(102 95 107) 0%, rgb(16, 26, 36) 80%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 #banner-text {
     position: absolute;
     top: 90px;
     left: 30%;
-    color: white;
+    color: rgb(163, 166, 182);
     width: 50%;
     text-align: center;
 }
@@ -68,6 +88,8 @@ header h2 {
 .social-media img {
     width: 30px;
     height: 30px;
+    border-style: none;
+    margin: 5px;
     /* background-color: rgb(85, 85, 238); */
 }
 
@@ -76,9 +98,13 @@ nav {
 
     display: flex;
     justify-content: right;
-    width: 100%;
+    width: 99%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
-    background-color: rgb(228, 230, 243);
+    background-color: rgb(255, 255, 255, 0.139); /* #353b41;*/
+    border-radius: 5px;
     padding: 8px 2px;
 
 }
@@ -93,15 +119,25 @@ nav li {
 
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
 dl {
-    color: rgb(78, 78, 192);
+   
     width: 75%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
 }
 
+dd {
+    color: rgb(163, 178, 182);
+}
+
 dt {
+    color: rgb(172, 164, 60);
     font-weight: bolder;
     margin-top: 20px;
 }
@@ -115,11 +151,12 @@ h1 {
 h2 {
     font-size: 25px;
     margin-top: 20px;
-    color: rgb(80, 93, 189);
+    color: rgb(240, 166, 6);
 }
 
 hr {
     margin-bottom: 10px;
+    border: 1px solid rgb(103, 104, 107);
 
 }
 
@@ -133,8 +170,8 @@ hr {
 }
 
 .experience-section {
-    background-color: rgb(236, 237, 242);
-    border: 2px inset rgb(236, 237, 242);
+    /* background-color: rgb(236, 237, 242); */
+    border: 1px solid rgb(103, 104, 107);
     border-radius: 20px;
     margin-top: 20px;
     width: 95%;
@@ -142,7 +179,7 @@ hr {
 
 .skills-section {
     
-    border: 2px double rgb(236, 237, 242);
+    border: 1px solid rgb(103, 104, 107);
     border-radius: 5px;
     margin-top: 20px;
     padding-top: 10px;
@@ -157,7 +194,7 @@ hr {
 .contact-section {
     display: flex;
     flex-direction: column;
-    border: 2px double rgb(236, 237, 242);
+    border: 2px double rgb(163, 166, 182);
     border-radius: 5px;
         margin-top: 20px;
         padding-top: 10px;
@@ -190,7 +227,7 @@ margin-left: auto;
 section hr {
     margin-bottom: 1px;
     margin-top: 0px;
-    border-top: 1px solid lightgrey;
+    border: 1px solid rgb(103, 104, 107);
 }
 section h2 {
     margin-top: 20px;
@@ -237,4 +274,5 @@ footer{
 
 footer hr {
     margin-bottom: 10px;
+
 }
