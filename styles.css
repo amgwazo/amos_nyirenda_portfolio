@@ -66,9 +66,9 @@ header h2 {
 }
 
 .social-media img {
-    width: 20px;
-    height: 20px;
-    background-color: rgb(85, 85, 238);
+    width: 30px;
+    height: 30px;
+    /* background-color: rgb(85, 85, 238); */
 }
 
 
@@ -89,7 +89,7 @@ nav li {
     padding: 5px;
     margin: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
 
 }
 
