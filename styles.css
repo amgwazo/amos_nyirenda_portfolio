@@ -262,6 +262,10 @@ form label .required{
     color: rgb(255, 81, 0);
 }
 
+.required {
+    color: rgb(255, 81, 0);
+}
+
  form input {
             margin-bottom: 10px;
         }
