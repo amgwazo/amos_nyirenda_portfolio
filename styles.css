@@ -7,17 +7,12 @@
 
 body {
     background-color: #353b41;
-    /*background-color: rgb(236, 237, 242);*/
-    /* rgb(57, 169, 219);   peru;*/
     font-family: Rubik, Arial;
     color: rgb(163, 178, 182);
 }
 
 header {
     padding-top: 5px;
-    /* background-color: cadetblue;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px; */
 }
 
 header h2 {
@@ -27,9 +22,8 @@ header h2 {
 .overlay {
     width: 90%;
     margin: 3% auto;
+    margin-top: 20px;
     background-color: rgba(255, 255, 255, 0.139);
-    /*rgb(255, 255, 255, 0.139);
-    background-color: rgba(255, 255, 255, 0.9); */
     border-radius: 20px;
 }
 
@@ -59,7 +53,7 @@ header h2 {
 }
 
 .banner-header{
-    height: 400px;
+   height: 400px;
     background: linear-gradient(304deg, rgb(102 95 107) 0%, rgb(16, 26, 36) 80%);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -98,14 +92,16 @@ nav {
 
     display: flex;
     justify-content: right;
-    width: 99%;
+    width: 89%;
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    background-color: rgb(255, 255, 255, 0.139); /* #353b41;*/
+   /* background-color: rgb(255, 255, 255, 0.139);*/ /* #353b41;*/
     border-radius: 5px;
     padding: 8px 2px;
+    position: fixed;
+    
 
 }
 
@@ -137,14 +133,15 @@ dd {
 }
 
 dt {
-    color: rgb(235, 172, 100);
-    font-weight: bolder;
+    color:rgb(231, 125, 3);/* rgb(235, 172, 100);*/
+    font-weight:normal;
     margin-top: 20px;
 }
 
 h1 {
     font-size: 35px;
     margin-bottom: 15px;
+    color: rgb(231, 125, 3);
 
 }
 
@@ -197,18 +194,24 @@ hr {
     flex-direction: column;
     border: 2px double rgb(163, 166, 182);
     border-radius: 5px;
-        margin-top: 20px;
-        padding-top: 10px;
-        width: 95%;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 95%;
 }
 
 #map-section {
-    width: 90%;
+    width: 98%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+#map-section iframe {
+            border: 0px;
+            border-radius: 5px;
+            width: 100%;
+        }
 /* 
 #tools {
        
@@ -236,7 +239,7 @@ section h2 {
 
 section p {
     margin: 5px;
-    align-items: center;
+    align-items: center;''
 }
 form {
     display: flex;
@@ -248,6 +251,7 @@ form {
     margin-right: auto;
     padding: 10px;
     border: 1px solid rgb(103, 104, 107);
+    background-color: rgb(255, 255, 255, 0.139);
     border-radius: 5px;
    /* border-right: 1px solid lightgrey;*/
 
@@ -266,8 +270,14 @@ form label .required{
     color: rgb(255, 81, 0);
 }
 
- form input {
+form select {
+    color: gray;
+}
+
+form input, select, textarea {
             margin-bottom: 10px;
+            background-color: rgb(230, 238, 240);
+            border-color: rgb(230, 238, 240);
         }
 
 form input[type="submit"] {
@@ -294,7 +304,6 @@ form input[type="reset"] {
 
 .btns-inline{
     display: inline;
-    margin-top: 10px;
     font-size: smaller;
 }
 
