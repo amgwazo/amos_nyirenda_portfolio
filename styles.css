@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    padding-top: 5px;
+    /* padding-top: 5px; */
 }
 
 header h2 {
@@ -22,12 +22,15 @@ header h2 {
 .overlay {
     width: 90%;
     margin: 3% auto;
-    margin-top: 20px;
+    margin-top: 2px;
     background-color: rgba(255, 255, 255, 0.139);
     border-radius: 20px;
+    padding: 5px 5px 0px 5px;
+
 }
 
-#banner {
+/*Currently Banner image not in use */
+#banner-img {
     height: 400px;
     width: 99%;
     display: block;
@@ -35,8 +38,8 @@ header h2 {
     margin-right: auto;
     z-index: -10;
     background-color: cadetblue;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 20px; 
+     border-top-right-radius: 20px;
 }
 
 #profile-image {
@@ -54,11 +57,11 @@ header h2 {
 
 .banner-header{
    height: 400px;
-    background: linear-gradient(304deg, rgb(102 95 107) 0%, rgb(16, 26, 36) 80%);
+    background: linear-gradient(304deg, rgb(59, 52, 63) 0%, rgb(19, 42, 66) 99%);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #banner-text {
@@ -92,15 +95,18 @@ nav {
 
     display: flex;
     justify-content: right;
-    width: 89%;
+    width: 90%;
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-   /* background-color: rgb(255, 255, 255, 0.139);*/ /* #353b41;*/
-    border-radius: 5px;
-    padding: 8px 2px;
+    /* background-color: rgb(255, 255, 255, 0.139); #353b41; rgb(112, 111, 111);*/
+    background: linear-gradient(304deg, rgb(56, 50, 60) 0%, rgb(19,42,66) 70%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 8px 0px;
     position: fixed;
+    z-index: 10;
     
 
 }
@@ -119,6 +125,7 @@ nav a {
     color: white;
     text-decoration: none;
 }
+
 
 dl {
    
