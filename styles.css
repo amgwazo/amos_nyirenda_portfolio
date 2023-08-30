@@ -13,6 +13,7 @@ body {
 
 header {
     /* padding-top: 5px; */
+    color:white;
 }
 
 header h2 {
@@ -246,8 +247,9 @@ section h2 {
 
 section p {
     margin: 5px;
-    align-items: center;''
+    align-items: center;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -320,15 +322,21 @@ form input[type="reset"] {
     padding: 10px;
 }
 
-.aboutme-details p {
+.aboutme-details-left {
     width: 60%;
     padding: 20;
     border-right: 1px solid rgb(103, 104, 107);
 }
 
-.aboutme-details img {
+.aboutme-details-right{
     width: 40%;
     min-width: 100px;
+    margin-left: 10px;
+}
+
+.aboutme-details-right img{
+    width: 100%;
+    max-height: 100%;
     margin-left: 10px;
 }
 
